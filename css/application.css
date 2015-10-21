@@ -42,7 +42,7 @@ ul {
 .eyeCatch {
   background-image: url("../img/13.jpg");
   width: 100%;
-  height: 568px;
+  height: 680px;
   background-size: cover;
   background-position: center;
   display: table;
@@ -51,29 +51,29 @@ ul {
 .about {
   background: pink;
   width: 100%;
-  height: 576px;
+  height: 640px;
 }
 
 .leap {
   background: green;
   width: 100%;
-  height: 640px;
+  height: 1360px;
 }
 
 .kinect {
   background: red;
   width: 100%;
-  height: 640px;
+  height: 1360px;
 }
 
 .inoue {
   background: black;
   width: 100%;
-  height: 576px;
+  height: 680px;
 }
 
 .yamada {
   background: blue;
   width: 100%;
-  height: 576px;
+  height: 680px;
 }
