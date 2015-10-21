@@ -9,6 +9,16 @@
     background-position: center;
     display: table;
 }
+.title {
+    display: table-cell;
+    font-size: 84px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
+#submozi {
+    font-size: 54px;
+}
 .about {
     background: pink;
     width: 100%;
