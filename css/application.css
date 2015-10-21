@@ -1,0 +1,79 @@
+/* Foundation */
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #000;
+  word-break: break-all;
+  font-family: meiryo, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* object */
+/* project */
+.bgContents {
+  width: 100%;
+}
+
+.eyeCatch {
+  background-image: url("../../img/13.jpg");
+  width: 100%;
+  height: 568px;
+  background-size: cover;
+  background-position: center;
+  display: table;
+}
+
+.about {
+  background: pink;
+  width: 100%;
+  height: 576px;
+}
+
+.leap {
+  background: green;
+  width: 100%;
+  height: 640px;
+}
+
+.kinect {
+  background: red;
+  width: 100%;
+  height: 640px;
+}
+
+.inoue {
+  background: black;
+  width: 100%;
+  height: 576px;
+}
+
+.yamada {
+  background: blue;
+  width: 100%;
+  height: 576px;
+}
