@@ -20,10 +20,13 @@
 #submozi {
     font-size: 54px;
 }
+#subAbout {
+    font-size: 25px;
+}
 h2 {
     font-size: 60px;
     color: white;
-    margin: auto;
+    margin: 12px auto;
     margin-bottom: 20px;
     letter-spacing: 1px;
     font-weight: normal;
@@ -55,15 +58,15 @@ h3 {
 }
 .text {
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .col {
-    width: 33%;
-    font-size: 25px;
-    line-height: 38px;
-    margin-top: 55px;
+    width: 30%;
+    font-size: 20px;
+    line-height: 35px;
     float: left;
     text-align: center;
+    margin: 15px;
 }
 // kinect
 .kinect {
@@ -109,7 +112,7 @@ h3 {
         width: 80%;
         height: 400px;
         margin: 88px auto;
-        background-image: url('../img/13.jpg');
+        background-image: url('../img/kinect2.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -157,7 +160,7 @@ h3 {
         background-size: cover;
         background-position: center;
     }
-    .pix2 {
+    .pix4 {
         background: white;
         width: 80%;
         height: 400px;
@@ -192,7 +195,7 @@ h3 {
     line-height: 26px;
     margin-top: 20px;
     float: left;
-    .pix3 {
+    .pix5 {
         background: white;
         width: 80%;
         height: 400px;
@@ -236,7 +239,7 @@ h3 {
     line-height: 26px;
     margin-top: 20px;
     float: left;
-    .pix3 {
+    .pix6 {
         background: white;
         width: 80%;
         height: 400px;
