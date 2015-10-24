@@ -17,11 +17,20 @@
     vertical-align: middle;
     text-shadow: 5px 5px 5px rgba(#000, 0.5);
 }
+.clear{
+    clear: both;
+}
 #submozi {
     font-size: 54px;
 }
 #subAbout {
     font-size: 25px;
+}
+#member {
+    font-size: 22px;
+}
+#setumei {
+    font-size: 30px;
 }
 h2 {
     font-size: 60px;
@@ -40,6 +49,13 @@ h3 {
     letter-spacing: 1px;
     font-weight: normal;
     line-height: 70px;
+}
+h4 {
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 // vote
 .voteWrapper {
@@ -76,12 +92,48 @@ h3 {
     height: 640px;
     display: table-cell;
 }
+.gameWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    display: table-cell;
+    overflow: hidden;
+    color: black;
+}
+.w-gameWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    display: table-cell;
+    overflow: hidden;
+    color: white;
+}
+.setumeiWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    display: table-cell;
+}
 .text {
     width: 100%;
     margin: 10px auto;
 }
+.left {
+    text-align: left;
+}
 .col {
     width: 30%;
+    font-size: 20px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    margin: 15px;
+}
+.col2 {
+    width: 44%;
     font-size: 20px;
     line-height: 35px;
     float: left;
@@ -111,8 +163,8 @@ h3 {
     overflow: hidden; /*floatの解除*/
     margin-bottom: 20px;
 }
-.Img1 {
-    background: pink;
+.Img {
+    background: none;
     width: 40%;
     height: 550px;
     font-size: 18px;
@@ -148,7 +200,9 @@ h3 {
     }
 }
 .Lcol {
-    background: blue;
+    display : -webkit-flex;
+    display : flex;
+    background: none;
     width: 60%;
     height: 550px;
     font-size: 18px;
@@ -252,13 +306,4 @@ h3 {
     background-image: url('../img/leap1.png');
     background-size: cover;
     background-position: center;
-}
-.Lcol2 {
-    background: blue;
-    width: 60%;
-    height: 550px;
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 20px;
-    float: left;
 }
