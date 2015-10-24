@@ -141,7 +141,7 @@ h3 {
 .kinect {
   background: white;
   width: 100%;
-  height: 1400px;
+  height: 1920px;
   display: table;
 }
 
@@ -161,12 +161,13 @@ h3 {
   width: 90%;
   overflow: hidden;
   /*floatの解除*/
+  margin-bottom: 20px;
 }
 
 .Img1 {
   background: pink;
   width: 40%;
-  height: 600px;
+  height: 550px;
   font-size: 18px;
   line-height: 26px;
   margin-top: 20px;
@@ -194,7 +195,7 @@ h3 {
 .Lcol {
   background: blue;
   width: 60%;
-  height: 600px;
+  height: 550px;
   font-size: 18px;
   line-height: 26px;
   margin-top: 20px;
@@ -204,7 +205,7 @@ h3 {
 .leap {
   background: #E04C2D;
   width: 100%;
-  height: 1400px;
+  height: 1340px;
   display: table;
 }
 
@@ -219,16 +220,7 @@ h3 {
   padding: 10px;
 }
 
-.Img1 {
-  background: pink;
-  width: 40%;
-  height: 600px;
-  font-size: 18px;
-  line-height: 26px;
-  margin-top: 20px;
-  float: left;
-}
-.Img1 .pix3 {
+.pix3 {
   background: white;
   width: 80%;
   height: 400px;
@@ -237,7 +229,8 @@ h3 {
   background-size: cover;
   background-position: center;
 }
-.Img1 .pix4 {
+
+.pix4 {
   background: white;
   width: 80%;
   height: 400px;
@@ -250,7 +243,7 @@ h3 {
 .inoue {
   background: white;
   width: 100%;
-  height: 680px;
+  height: 700px;
   display: table;
 }
 
@@ -265,16 +258,7 @@ h3 {
   padding: 10px;
 }
 
-.Img2 {
-  background: pink;
-  width: 40%;
-  height: 550px;
-  font-size: 18px;
-  line-height: 26px;
-  margin-top: 20px;
-  float: left;
-}
-.Img2 .pix5 {
+.pix5 {
   background: white;
   width: 80%;
   height: 400px;
@@ -297,7 +281,7 @@ h3 {
 .yamada {
   background: #37BC9B;
   width: 100%;
-  height: 680px;
+  height: 700px;
   display: table;
 }
 
@@ -312,16 +296,7 @@ h3 {
   padding: 10px;
 }
 
-.Img2 {
-  background: pink;
-  width: 40%;
-  height: 550px;
-  font-size: 18px;
-  line-height: 26px;
-  margin-top: 20px;
-  float: left;
-}
-.Img2 .pix6 {
+.pix6 {
   background: white;
   width: 80%;
   height: 400px;

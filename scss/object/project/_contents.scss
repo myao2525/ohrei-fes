@@ -92,7 +92,7 @@ h3 {
 .kinect {
     background: white;
     width: 100%;
-    height: 1400px;
+    height: 1920px;
     display: table;
 }
 .kinectWrapper {
@@ -109,11 +109,12 @@ h3 {
     margin: 0 auto;
     width: 90%;
     overflow: hidden; /*floatの解除*/
+    margin-bottom: 20px;
 }
 .Img1 {
     background: pink;
     width: 40%;
-    height: 600px;
+    height: 550px;
     font-size: 18px;
     line-height: 26px;
     margin-top: 20px;
@@ -140,7 +141,7 @@ h3 {
 .Lcol {
     background: blue;
     width: 60%;
-    height: 600px;
+    height: 550px;
     font-size: 18px;
     line-height: 26px;
     margin-top: 20px;
@@ -150,7 +151,7 @@ h3 {
 .leap {
     background: #E04C2D;
     width: 100%;
-    height: 1400px;
+    height: 1340px;
     display: table;
 }
 .leapWrapper {
@@ -163,38 +164,30 @@ h3 {
     display: table-cell;
     padding: 10px;
 }
-.Img1 {
-    background: pink;
-    width: 40%;
-    height: 600px;
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 20px;
-    float: left;
-    .pix3 {
-        background: white;
-        width: 80%;
-        height: 400px;
-        margin: 88px auto;
-        background-image: url('../img/leap1.png');
-        background-size: cover;
-        background-position: center;
-    }
-    .pix4 {
-        background: white;
-        width: 80%;
-        height: 400px;
-        margin: 88px auto;
-        background-image: url('../img/13.jpg');
-        background-size: cover;
-        background-position: center;
-    }
+.pix3 {
+    background: white;
+    width: 80%;
+    height: 400px;
+    margin: 88px auto;
+    background-image: url('../img/leap1.png');
+    background-size: cover;
+    background-position: center;
 }
+.pix4 {
+    background: white;
+    width: 80%;
+    height: 400px;
+    margin: 88px auto;
+    background-image: url('../img/13.jpg');
+    background-size: cover;
+    background-position: center;
+    }
+
 // inoue
 .inoue {
     background: white;
     width: 100%;
-    height: 680px;
+    height: 700px;
     display: table;
 }
 .inoueWrapper {
@@ -207,23 +200,14 @@ h3 {
     display: table-cell;
     padding: 10px;
 }
-.Img2 {
-    background: pink;
-    width: 40%;
-    height: 550px;
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 20px;
-    float: left;
-    .pix5 {
-        background: white;
-        width: 80%;
-        height: 400px;
-        margin: 88px auto;
-        background-image: url('../img/leap1.png');
-        background-size: cover;
-        background-position: center;
-    }
+.pix5 {
+    background: white;
+    width: 80%;
+    height: 400px;
+    margin: 88px auto;
+    background-image: url('../img/leap1.png');
+    background-size: cover;
+    background-position: center;
 }
 .Lcol2 {
     background: blue;
@@ -238,7 +222,7 @@ h3 {
 .yamada {
     background: #37BC9B;
     width: 100%;
-    height: 680px;
+    height: 700px;
     display: table;
 }
 .yamadaWrapper {
@@ -251,23 +235,14 @@ h3 {
     display: table-cell;
     padding: 10px;
 }
-.Img2 {
-    background: pink;
-    width: 40%;
-    height: 550px;
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 20px;
-    float: left;
-    .pix6 {
-        background: white;
-        width: 80%;
-        height: 400px;
-        margin: 88px auto;
-        background-image: url('../img/leap1.png');
-        background-size: cover;
-        background-position: center;
-    }
+.pix6 {
+    background: white;
+    width: 80%;
+    height: 400px;
+    margin: 88px auto;
+    background-image: url('../img/leap1.png');
+    background-size: cover;
+    background-position: center;
 }
 .Lcol2 {
     background: blue;
