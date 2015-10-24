@@ -19,32 +19,237 @@
 #submozi {
     font-size: 54px;
 }
-#contentsTitle {
+#contentsTitle1 {
+    font-size: 60px;
     color: white;
-    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 70px;
+}
+#contentsTitle2 {
+    font-size: 60px;
+    color: black;
+    margin: auto;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 70px;
 }
 .about {
     background: #37BC9B;
     width: 100%;
     height: 640px;
+    display: table;
 }
-.leap {
+.textWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    height: 640px;
+    display: table-cell;
+}
+.text {
+    width: 100%;
+    margin: 0 auto;
+}
+.col {
+    width: 33%;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 55px;
+    float: left;
+}
+// kinect
+.kinect {
     background: white;
     width: 100%;
-    height: 1360px;
+    height: 1400px;
+    display: table;
 }
-.kinect {
+.kinectWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    height: 640px;
+    display: table-cell;
+    padding: 10px;
+}
+.contentsWrapper {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden; /*floatの解除*/
+}
+.Img1 {
+    background: pink;
+    width: 40%;
+    height: 600px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
+    .pix1 {
+        background: white;
+        width: 80%;
+        height: 400px;
+        margin: 88px auto;
+        background-image: url('../img/kinect1.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .pix2 {
+        background: white;
+        width: 80%;
+        height: 400px;
+        margin: 88px auto;
+        background-image: url('../img/13.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+.Lcol {
+    background: blue;
+    width: 60%;
+    height: 600px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
+}
+// leap
+.leap {
     background: #E04C2D;
     width: 100%;
-    height: 1360px;
+    height: 1400px;
+    display: table;
 }
+.leapWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    height: 640px;
+    display: table-cell;
+    padding: 10px;
+}
+.Img1 {
+    background: pink;
+    width: 40%;
+    height: 600px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
+    .pix3 {
+        background: white;
+        width: 80%;
+        height: 400px;
+        margin: 88px auto;
+        background-image: url('../img/leap1.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .pix2 {
+        background: white;
+        width: 80%;
+        height: 400px;
+        margin: 88px auto;
+        background-image: url('../img/13.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+// inoue
 .inoue {
     background: white;
     width: 100%;
     height: 680px;
+    display: table;
 }
+.inoueWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    height: 600px;
+    display: table-cell;
+    padding: 10px;
+}
+.Img2 {
+    background: pink;
+    width: 40%;
+    height: 550px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
+    .pix3 {
+        background: white;
+        width: 80%;
+        height: 400px;
+        margin: 88px auto;
+        background-image: url('../img/leap1.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+.Lcol2 {
+    background: blue;
+    width: 60%;
+    height: 550px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
+}
+// yamada
 .yamada {
     background: #37BC9B;
     width: 100%;
     height: 680px;
+    display: table;
+}
+.yamadaWrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    height: 600px;
+    display: table-cell;
+    padding: 10px;
+}
+.Img2 {
+    background: pink;
+    width: 40%;
+    height: 550px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
+    .pix3 {
+        background: white;
+        width: 80%;
+        height: 400px;
+        margin: 88px auto;
+        background-image: url('../img/leap1.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+.Lcol2 {
+    background: blue;
+    width: 60%;
+    height: 550px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    float: left;
 }
