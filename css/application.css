@@ -55,14 +55,14 @@ ul {
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
   vertical-align: middle;
-  text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #submozi {
   font-size: 54px;
 }
 
-#contentsTitle1 {
+h2 {
   font-size: 60px;
   color: white;
   margin: auto;
@@ -72,7 +72,7 @@ ul {
   line-height: 70px;
 }
 
-#contentsTitle2 {
+h3 {
   font-size: 60px;
   color: black;
   margin: auto;
@@ -93,7 +93,7 @@ ul {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 38px;
   height: 640px;
   display: table-cell;
@@ -106,7 +106,7 @@ ul {
 
 .col {
   width: 33%;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 26px;
   margin-top: 55px;
   float: left;
