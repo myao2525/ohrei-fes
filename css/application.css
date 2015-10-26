@@ -62,11 +62,6 @@ ul {
   clear: both;
 }
 
-.clearfix:after {
-  content: "";
-  clear: both;
-}
-
 #submozi {
   font-size: 54px;
 }
